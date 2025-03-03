@@ -1,4 +1,4 @@
-'use server'
+"use server";
 
 import {google} from "googleapis";
 import {VideoDetails} from "@/types/types";

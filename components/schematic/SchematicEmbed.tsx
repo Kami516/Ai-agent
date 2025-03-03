@@ -1,18 +1,15 @@
 "use client";
 
-import { SchematicEmbed as SchematicEmbedComponent } from "@schematichq/schematic-components"
+import { SchematicEmbed as SchematicEmbedComponent } from "@schematichq/schematic-components";
 
 const SchematicEmbed = ({
-    accessToken,
-    componentId,
+  accessToken,
+  componentId,
 }: {
-    accessToken: string
-    componentId: string
+  accessToken: string;
+  componentId: string;
 }) => {
-
-  return (
-    <SchematicEmbedComponent accessToken={accessToken} id={componentId} />
-  );
+  return <SchematicEmbedComponent accessToken={accessToken} id={componentId} />;
 };
 
 export default SchematicEmbed;
